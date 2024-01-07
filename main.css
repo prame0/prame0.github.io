@@ -1,0 +1,89 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.about{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 399;
+    color: rgb(0, 0, 0);
+}
+.box{
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0.5)), url(https://images.unsplash.com/photo-1542626991-cbc4e32524cc?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100vh;
+    padding: 100px 100px;
+}
+
+@media screen and (max-width: 768px){
+    .box{
+        max-width: 24px;
+    }
+}
+
+.box-small{
+    max-width: 600px;
+}
+
+.button{
+    color: white;
+    padding: 12px 15px;
+    background-color: black;
+    max-width: 200px;
+    text-decoration: none;
+    margin-top: 20px;
+    
+}
+
+.contact{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-icon{
+    margin-right: 10px;
+    width: 16px;
+}
+
+.contact-item{
+    margin-bottom: 3px;
+}
+
+.myphoto{
+    width: 150px;
+    height: 195px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 10px 10px 2px 0px black;
+}
+
+.job{
+    font-size: 24px;
+    font-weight: 350;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+.h3topic{
+    font-size: 20px;
+}
+
+.name{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .name{
+        font-size: 16px;
+    }
+}
+
